@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Conservancy Buildings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "Point", "coordinates": [ -77.966081341100121, 33.846215853810349 ] } },
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "Point", "coordinates": [ -77.965999419225085, 33.846472790600245 ] } },
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "Point", "coordinates": [ -77.965768548486338, 33.846357355230872 ] } },
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "Point", "coordinates": [ -77.965630770787413, 33.846219577531947 ] } }
+]
+}
