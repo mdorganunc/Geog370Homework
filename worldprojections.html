@@ -9,15 +9,15 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>For each map, I looked up the name or EPSG in the Project Properties/CRS tab. I then applied the new projection. After that, I used the indicatrix plugin to create Tissots Indicatrox circles, which helps visualize the distortion present on each map. I then exported each map as an image and uploaded it to this site.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
-    <a href="./Images/54043.png">
-    <img src="./Images/54043.png" alt="WGS84" width='500px'>
+    <h3>In this projection, I am noting quite a bit of distortion around the poles, as indicated by the larger circles on the indicatrix. Shape is preserved, but area is distorted.</h3>
+    <a href="./Images/4326.png">
+    <img src="./Images/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The curved shape of this projection helps moderate the distortion around the poles, although some is still present. There is also distortion as you move away from the prime meridian toward the edges of the map. Size here is somewhat more accurate, as seen by the larger size of Africa than Greenland (compared to WSG84)</h3>
     <a href="./Images/54043.png">
     <img src="./Images/54043.png" alt="Aitoff" width='500px'>
     </a>
@@ -26,47 +26,47 @@
     <p></p>
 
     <h2>Psuedo-Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Large amounts of distortion around the poles (look at the size of Antarctica!), but preserves space and direction.</h3>
     <a href="./Images/Projection 3857.png">
     <img src="./Images/Projection 3857.png" alt="Pseudo_Mercator" width='500px'>
     </a>
 
     <h2>Sphere Winkel 1 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Curved/Spherical shape of map helps offset distortion. Some size distortion as one moves toward poles/away froom prime meridian, but less size distortion than Mercator.</h3>
     <a href="./Images/Sphere Winkel 53018.png">
     <img src="./Images/Sphere Winkel 53018.png" alt="Sphere Winkel 1" width='500px'>
     </a>
 
     <h2>Equal Area Cylindrical Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Noticeable stretching/flattening occuring near poles. Circles occupy more E/W space as you move away from equator. Seemingly Truer representation of size than Mercator.</h3>
     <a href="./Images/Equal Area Cylindrical 54034.png">
     <img src="./Images/Equal Area Cylindrical 54034.png" alt="Equal Area Cylinder" width='500px'>
     </a>
 
     <h2>Equidistant Conic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>View has shifted to be from the pole perspective- increasing size/distance distortion as we move away from pole.</h3>
     <a href="./Images/Equidistant Conic 54027.png">
     <img src="./Images/Equidistant Conic 54027.png" alt="Equidistant Conic" width='500px'>
     </a>
 
     <h2>Azimuthal Equidistant</h2>
-    <h3>Some observations</h3>
+    <h3>View has shifted to be from the pole perspective- increasing size/distance distortion as we move away from pole. This projection even more distorted than previous. Maintains true direction.</h3>
     <a href="./Images/Azimuthal Equidistant 102016.png">
     <img src="./Images/Azimuthal Equidistant 102016.png" alt="Azimuthal Equidistant" width='500px'>
     </a>
 
     <h2>Robinson Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Distortion around poles, accounts for size better than Mercator. Curved indicatrix graticule grid.</h3>
     <a href="./Images/Robinson 54030.png">
     <img src="./Images/Robinson 54030.png" alt="Robinson Projection" width='500px'>
     </a>
 
     <h2>Gall Stereographic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Shape preserved, rectangular grid. LOTS of distortion in size around poles.</h3>
     <a href="./Images/Gall Stereographic 54016.png">
     <img src="./Images/Gall Stereographic 54016.png" alt="Gall Stereographic 54016" width='500px'>
     </a>
-    
+
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
