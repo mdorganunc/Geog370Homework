@@ -1,16 +1,5 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georeferencing HW 5</title>
-<h1>Memphis, TN</h1>
-<h2>Michael Dorgan</h2>
-
-
- <br>
- <!DOCTYPE html>
 <html>
 <head>
   <title>Leaflet Preview</title>
@@ -38,7 +27,7 @@
   <div id="map"></div>
   <script>
       var map = L.map('map').setView([35.1348182552333, -90.05606930289943], 14.0);
-      L.tileLayer('Correct%20Tiles%20HW5/{z}/{x}/{y}.png', {
+      L.tileLayer('file:///C%3A/Users/mdorgan/Desktop/GEOG%20370/GitHub/Geog370Homework2/Correct%20Tiles%20HW5/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 16,
         tms: false,
@@ -47,9 +36,3 @@
   </script>
 </body>
 </html>
-
-</html>
-<br>
-<h2><a href="https://github.com/mdorganunc/Geog370Homework/blob/main/memphispointscorrect.points"> Ground Control Points Text File</a></h2>
-<br>
-<h2><a href="https://github.com/mdorganunc/Geog370Homework/blob/main/memphislayer.html">Georeferencing HTML</a></h2>
